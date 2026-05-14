@@ -143,36 +143,6 @@ function WebDesignPage() {
   );
 }
 
-function AiWorksPage() {
-  return (
-    <div className="page">
-      <PageHead
-        kicker="AI Works"
-        title="Building with AI, in public."
-        sub="Experiments with generative imagery, prompt-driven workflows, and AI-augmented design systems. New work landing soon — drop me a line if you want to collaborate."
-      />
-      <div className="coming">
-        <div className="coming-card">
-          <div className="sub">Slot 01</div>
-          <div className="ttl">Generative brand visuals</div>
-        </div>
-        <div className="coming-card">
-          <div className="sub">Slot 02</div>
-          <div className="ttl">AI-powered design systems</div>
-        </div>
-        <div className="coming-card">
-          <div className="sub">Slot 03</div>
-          <div className="ttl">Prompt → product workflows</div>
-        </div>
-        <div className="coming-card">
-          <div className="sub">Slot 04</div>
-          <div className="ttl">Editorial AI imagery</div>
-        </div>
-      </div>
-    </div>
-  );
-}
-
 function GraphicDesignPage() {
   return (
     <div className="page">
@@ -374,7 +344,6 @@ function ContactPage() {
 const PAGES: Record<string, () => React.JSX.Element> = {
   home: HomePage,
   web: WebDesignPage,
-  ai: AiWorksPage,
   graphic: GraphicDesignPage,
   social: SocialDesignPage,
   cv: CvPage,
