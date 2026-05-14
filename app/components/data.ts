@@ -64,7 +64,7 @@ export const WEB_PROJECTS: WebProject[] = [
   },
   {
     id: "wip-africa",
-    title: "World Institute of Pain, Africa",
+    title: "WIP Africa",
     url: "worldinstituteofpainafrica.org",
     href: "https://worldinstituteofpainafrica.org/",
     blurb: "Regional Leaders in Pain Management and Education",
