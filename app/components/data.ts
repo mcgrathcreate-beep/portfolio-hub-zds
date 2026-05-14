@@ -34,6 +34,7 @@ export const WEB_PROJECTS: WebProject[] = [
     href: "https://ottersbendlodge.co.za/",
     blurb: "Riverside Lodge & Campsite in Franschhoek",
     tags: ["Accommodation", "Tourism"],
+    image: "/otters-bend.png",
   },
   {
     id: "bestbuds",

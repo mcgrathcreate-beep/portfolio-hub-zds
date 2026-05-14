@@ -44,7 +44,17 @@ function ProjectCard({
       rel="noopener noreferrer"
     >
       <div className="media">
-        <span className="slot-placeholder">{p.title} screenshot</span>
+        {p.image ? (
+          <Image
+            src={p.image}
+            alt={`${p.title} screenshot`}
+            fill
+            sizes="(max-width: 720px) 100vw, (max-width: 1080px) 50vw, 600px"
+            style={{ objectFit: "cover" }}
+          />
+        ) : (
+          <span className="slot-placeholder">{p.title} screenshot</span>
+        )}
       </div>
       <div className="meta">
         <div className="meta-top">
