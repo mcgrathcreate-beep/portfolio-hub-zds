@@ -43,6 +43,7 @@ export const WEB_PROJECTS: WebProject[] = [
     href: "https://olivebeanleather.co.za/",
     blurb: "Artisanal Local Leather Products",
     tags: ["E-commerce", "D2C"],
+    image: "/olive-bean.png",
   },
   {
     id: "stiint-it",
@@ -51,6 +52,7 @@ export const WEB_PROJECTS: WebProject[] = [
     href: "https://stiint-it.com/",
     blurb: "Connecting Verified Talent to Opportunities",
     tags: ["Marketplace", "Recruitment"],
+    image: "/stiint-it.png",
   },
   {
     id: "bestbuds",
@@ -59,6 +61,7 @@ export const WEB_PROJECTS: WebProject[] = [
     href: "https://bestbuds420.co.za/",
     blurb: "Bud Buying Built for Members",
     tags: ["E-commerce", "Membership"],
+    image: "/best-buds.png",
   },
   {
     id: "wip-africa",
