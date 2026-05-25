@@ -78,6 +78,24 @@ export const WEB_PROJECTS: WebProject[] = [
     blurb: "Medical Physician",
     tags: ["Professional Services", "Personal Brand"],
   },
+  {
+    id: "pomerol",
+    title: "Pomerol",
+    url: "pomerolpartners.com",
+    href: "https://pomerolpartners.com/netsuite-operational-rescue/",
+    blurb: "Data analytics consultancy",
+    tags: ["SaaS", "Analytics"],
+    image: "/pomerol.png",
+  },
+  {
+    id: "steelorex",
+    title: "Steelorex",
+    url: "steelorex.co.za",
+    href: "https://steelorex.co.za/",
+    blurb: "Commercial manufacturer and online retailer",
+    tags: ["E-commerce", "Manufacturing"],
+    image: "/steelorex.png",
+  },
 ];
 
 export type Experience = {
