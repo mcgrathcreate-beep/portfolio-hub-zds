@@ -77,6 +77,7 @@ export const WEB_PROJECTS: WebProject[] = [
     href: "https://drcarynapril.com/",
     blurb: "Medical Physician",
     tags: ["Professional Services", "Personal Brand"],
+    image: "/dr-caryn.png",
   },
   {
     id: "pomerol",
