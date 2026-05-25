@@ -524,6 +524,7 @@ button { font-family: inherit; cursor: pointer; border: 0; background: transpare
   font-family: var(--mono);
   letter-spacing: .08em;
   text-transform: uppercase;
+  white-space: nowrap;
 }
 .contact-list { display: flex; flex-direction: column; gap: 14px; margin-top: 4px; }
 .contact-list .row {
