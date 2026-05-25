@@ -237,13 +237,30 @@ function CvPage() {
               </span>
               Development
             </div>
-            <div className="skill-chips">
-              <span className="skill-chip">WordPress</span>
-              <span className="skill-chip">Divi</span>
-              <span className="skill-chip">Elementor</span>
-              <span className="skill-chip">Breakdance Builder</span>
-              <span className="skill-chip">Figma</span>
-              <span className="skill-chip">Canva</span>
+            <div className="skill-subgroups">
+              <div className="skill-subgroup">
+                <div className="skill-subgroup-label">WordPress</div>
+                <div className="skill-chips">
+                  <span className="skill-chip">Breakdance Builder</span>
+                  <span className="skill-chip">Elementor</span>
+                  <span className="skill-chip">Divi</span>
+                </div>
+              </div>
+              <div className="skill-subgroup">
+                <div className="skill-subgroup-label">AI</div>
+                <div className="skill-chips">
+                  <span className="skill-chip">Build with Claude Code</span>
+                </div>
+              </div>
+              <div className="skill-subgroup">
+                <div className="skill-subgroup-label">Hosting</div>
+                <div className="skill-chips">
+                  <span className="skill-chip">Xneelo</span>
+                  <span className="skill-chip">GoDaddy DNS pointing</span>
+                  <span className="skill-chip">Domain purchasing</span>
+                  <span className="skill-chip">Email & site hosting</span>
+                </div>
+              </div>
             </div>
           </div>
         </div>
