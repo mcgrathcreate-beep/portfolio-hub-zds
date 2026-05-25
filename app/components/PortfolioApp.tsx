@@ -103,9 +103,6 @@ function HomePage() {
           <div className="stat">
             <span className="num">40+</span>Projects shipped
           </div>
-          <div className="stat">
-            <span className="num">06</span>Live websites
-          </div>
         </div>
       </section>
 
