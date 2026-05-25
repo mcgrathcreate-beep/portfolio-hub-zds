@@ -212,52 +212,38 @@ function CvPage() {
 
       <section className="section">
         <h2 className="section-title">Skills</h2>
-        <div className="skills-grid">
-          <div className="skill-row">
-            <div className="skill-label">
+        <div className="skills-stack">
+          <div className="skill-group">
+            <div className="skill-group-head">
               <span className="ico">
                 <Icon name="design" size={16} />
               </span>
               Design
             </div>
-            <div className="skill-chunks">
-              <div className="skill-chunk split">
-                <span>Web Design</span>
-                <span className="vr"></span>
-                <span>Mobile Design</span>
-              </div>
-              <div className="skill-chunk">User Experience</div>
-              <div className="skill-chunk">
-                <div className="lst">
-                  <div className="li">Wireframing</div>
-                  <div className="li">Prototyping</div>
-                  <div className="li">Testing</div>
-                </div>
-              </div>
-              <div className="skill-chunk">Design System</div>
+            <div className="skill-chips">
+              <span className="skill-chip">Web Design</span>
+              <span className="skill-chip">Mobile Design</span>
+              <span className="skill-chip">User Experience</span>
+              <span className="skill-chip">Wireframing</span>
+              <span className="skill-chip">Prototyping</span>
+              <span className="skill-chip">Testing</span>
+              <span className="skill-chip">Design System</span>
             </div>
           </div>
-          <div className="skill-row">
-            <div className="skill-label">
+          <div className="skill-group">
+            <div className="skill-group-head">
               <span className="ico">
                 <Icon name="code" size={16} />
               </span>
               Development
             </div>
-            <div className="skill-chunks">
-              <div className="skill-chunk">WordPress</div>
-              <div className="skill-chunk">
-                <div className="lst">
-                  <div className="li">Divi</div>
-                  <div className="li">Elementor</div>
-                  <div className="li">Breakdance Builder</div>
-                </div>
-              </div>
-              <div className="skill-chunk split">
-                <span>Figma</span>
-                <span className="vr"></span>
-                <span>Canva</span>
-              </div>
+            <div className="skill-chips">
+              <span className="skill-chip">WordPress</span>
+              <span className="skill-chip">Divi</span>
+              <span className="skill-chip">Elementor</span>
+              <span className="skill-chip">Breakdance Builder</span>
+              <span className="skill-chip">Figma</span>
+              <span className="skill-chip">Canva</span>
             </div>
           </div>
         </div>
