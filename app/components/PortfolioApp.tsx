@@ -229,6 +229,15 @@ function CvPage() {
               <span className="skill-chip">Testing</span>
               <span className="skill-chip">Design System</span>
             </div>
+            <div className="skill-subgroups">
+              <div className="skill-subgroup">
+                <div className="skill-subgroup-label">Tools</div>
+                <div className="skill-chips">
+                  <span className="skill-chip">Figma</span>
+                  <span className="skill-chip">Canva</span>
+                </div>
+              </div>
+            </div>
           </div>
           <div className="skill-group">
             <div className="skill-group-head">
