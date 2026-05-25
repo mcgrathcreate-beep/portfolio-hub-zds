@@ -69,6 +69,7 @@ export const WEB_PROJECTS: WebProject[] = [
     href: "https://worldinstituteofpainafrica.org/",
     blurb: "Regional Leaders in Pain Management and Education",
     tags: ["Healthcare", "Education"],
+    image: "/wip-africa.png",
   },
   {
     id: "drcaryn",
