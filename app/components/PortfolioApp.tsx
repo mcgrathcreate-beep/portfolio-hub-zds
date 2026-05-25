@@ -235,6 +235,7 @@ function CvPage() {
                 <div className="skill-chips">
                   <span className="skill-chip">Figma</span>
                   <span className="skill-chip">Canva</span>
+                  <span className="skill-chip">Adobe Suite</span>
                 </div>
               </div>
             </div>
