@@ -109,7 +109,7 @@ function HomePage() {
 
       <PageHead
         title="Recent Projects"
-        sub="A closer look at recent web work — where creativity meets precision."
+        sub="A closer look at recent web work, where creativity meets precision."
       />
 
       <div className="project-grid">
@@ -125,9 +125,9 @@ function WebDesignPage() {
   return (
     <div className="page">
       <PageHead
-        kicker="Web Design — Selected Work"
+        kicker="Web Design · Selected Work"
         title="Websites built to last."
-        sub="WordPress, custom builds, and end-to-end delivery — from user journeys to hosting."
+        sub="WordPress, custom builds, and end-to-end delivery from user journeys to hosting."
       />
       <div className="project-grid">
         {WEB_PROJECTS.map((p) => (
@@ -144,7 +144,7 @@ function GraphicDesignPage() {
       <PageHead
         kicker="Graphic Design"
         title="Identity, print & the everyday."
-        sub="Digital designs, posters, banners, and branding work — email signatures, social assets, and pitch decks."
+        sub="Digital designs, posters, banners, branding work, email signatures, social assets, and pitch decks."
       />
       <div className="gfx-grid">
         {GFX_TILES.map((t) => (
@@ -190,7 +190,7 @@ function CvPage() {
       <PageHead
         kicker="Curriculum Vitae"
         title="Experience & craft."
-        sub="Eight years across agency, in-house, and independent work — building digital products and brands across Cape Town and beyond."
+        sub="Eight years across agency, in-house, and independent work, building digital products and brands across Cape Town and beyond."
       />
 
       <section className="section">
@@ -301,7 +301,7 @@ function ContactPage() {
           </h2>
           <p>
             Whether it&apos;s a website, a brand refresh, or a product team that
-            needs a multimedia designer who can ship — I&apos;d love to hear
+            needs a multimedia designer who can ship. I&apos;d love to hear
             from you.
           </p>
           <p className="contact-meta">Based in Cape Town · Remote-friendly</p>
