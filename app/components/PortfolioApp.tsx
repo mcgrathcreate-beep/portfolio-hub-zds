@@ -79,8 +79,8 @@ function ProjectCard({
 }
 
 function HomePage() {
-  const featured = WEB_PROJECTS[0];
-  const rest = WEB_PROJECTS.slice(1, 5);
+  const recentIds = ["wip-africa", "bestbuds", "steelorex", "leopard-tours"];
+  const recent = recentIds.map(id => WEB_PROJECTS.find(p => p.id === id)!);
   return (
     <div className="page">
       <section className="home-hero">
@@ -112,13 +112,10 @@ function HomePage() {
         sub="A closer look at recent web work — where creativity meets precision."
       />
 
-      <div className="project-stack">
-        <ProjectCard p={featured} featured />
-        <div className="project-grid">
-          {rest.map((p) => (
-            <ProjectCard key={p.id} p={p} />
-          ))}
-        </div>
+      <div className="project-grid">
+        {recent.map((p) => (
+          <ProjectCard key={p.id} p={p} />
+        ))}
       </div>
     </div>
   );
