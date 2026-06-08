@@ -170,13 +170,14 @@ function SocialDesignPage() {
         sub="Mockups, story templates, and content systems — drop in your campaign artwork."
       />
       <div className="social-grid">
-        {Array.from({ length: 9 }).map((_, i) => (
+        {Array.from({ length: 8 }).map((_, i) => (
           <div className="tile" key={i}>
             <Image
-              src={`/social-${i + 1}.png`}
+              src={`/social-design-${i + 1}.jpg`}
               alt={`Social design ${i + 1}`}
               fill
-              sizes="(max-width: 720px) 100vw, (max-width: 1080px) 33vw, 240px"
+              sizes="(max-width: 720px) 100vw, (max-width: 1080px) 33vw, 400px"
+              quality={90}
               style={{ objectFit: "cover" }}
             />
           </div>
