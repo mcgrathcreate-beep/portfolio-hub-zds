@@ -32,7 +32,7 @@ export const WEB_PROJECTS: WebProject[] = [
     href: "https://ottersbendlodge.co.za/",
     blurb: "Riverside Lodge & Campsite in Franschhoek",
     tags: ["Accommodation", "Tourism"],
-    image: "/web-design-otters-bend-lodge.jpg",
+    image: "/web-design-otters-bend-lodge.png",
   },
   {
     id: "olive-bean",
@@ -41,7 +41,7 @@ export const WEB_PROJECTS: WebProject[] = [
     href: "https://olivebeanleather.co.za/",
     blurb: "Artisanal Local Leather Products",
     tags: ["E-commerce", "D2C"],
-    image: "/web-design-olive-bean-leather.jpg",
+    image: "/web-design-olive-bean-leather.png",
   },
   {
     id: "stiint-it",
@@ -50,7 +50,7 @@ export const WEB_PROJECTS: WebProject[] = [
     href: "https://stiint-it.com/",
     blurb: "Connecting Verified Talent to Opportunities",
     tags: ["Marketplace", "Recruitment"],
-    image: "/web-design-stiint-it.jpg",
+    image: "/web-design-stiint-it.png",
   },
   {
     id: "bestbuds",
@@ -59,7 +59,7 @@ export const WEB_PROJECTS: WebProject[] = [
     href: "https://bestbuds420.co.za/",
     blurb: "Bud Buying Built for Members",
     tags: ["E-commerce", "Membership"],
-    image: "/web-design-best-buds-420.jpg",
+    image: "/web-design-best-buds-420.png",
   },
   {
     id: "wip-africa",
@@ -68,7 +68,7 @@ export const WEB_PROJECTS: WebProject[] = [
     href: "https://worldinstituteofpainafrica.org/",
     blurb: "Regional Leaders in Pain Management and Education",
     tags: ["Healthcare", "Education"],
-    image: "/web-design-wip-africa.jpg",
+    image: "/web-design-wip-africa.png",
   },
   {
     id: "drcaryn",
@@ -77,7 +77,7 @@ export const WEB_PROJECTS: WebProject[] = [
     href: "https://drcarynapril.com/",
     blurb: "Medical Physician",
     tags: ["Professional Services", "Personal Brand"],
-    image: "/web-design-dr-caryn-april.jpg",
+    image: "/web-design-dr-caryn-april.png",
   },
   {
     id: "pomerol",
@@ -86,7 +86,7 @@ export const WEB_PROJECTS: WebProject[] = [
     href: "https://pomerolpartners.com/netsuite-operational-rescue/",
     blurb: "Data analytics consultancy",
     tags: ["SaaS", "Analytics"],
-    image: "/web-design-pomerol-partners.jpg",
+    image: "/web-design-pomerol-partners.png",
   },
   {
     id: "steelorex",
@@ -95,7 +95,7 @@ export const WEB_PROJECTS: WebProject[] = [
     href: "https://steelorex.co.za/",
     blurb: "Commercial manufacturer and online retailer",
     tags: ["E-commerce", "Manufacturing"],
-    image: "/web-design-steelorex.jpg",
+    image: "/web-design-steelorex.png",
   },
   {
     id: "leopard-tours",
@@ -104,7 +104,7 @@ export const WEB_PROJECTS: WebProject[] = [
     href: "https://leopard.voyage/",
     blurb: "Curated travel experiences",
     tags: ["Tourism", "Travel"],
-    image: "/web-design-leopard-tours.jpg",
+    image: "/web-design-leopard-tours.png",
   },
   {
     id: "matriarch-africa",
@@ -113,7 +113,7 @@ export const WEB_PROJECTS: WebProject[] = [
     href: "https://matriarch.africa/",
     blurb: "Energy & utilities management for property portfolios",
     tags: ["Energy", "Property"],
-    image: "/web-design-matriarch-africa.jpg",
+    image: "/web-design-matriarch-africa.png",
   },
 ];
 
