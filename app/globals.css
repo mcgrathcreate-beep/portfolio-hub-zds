@@ -679,6 +679,7 @@ button { font-family: inherit; cursor: pointer; border: 0; background: transpare
     var(--surface);
   border: 1px solid var(--line);
   border-bottom: none;
+  border-left: none;
   border-radius: var(--radius-lg);
   padding: 44px 48px;
   margin-bottom: 40px;
