@@ -79,7 +79,7 @@ function ProjectCard({
 }
 
 function HomePage() {
-  const recentIds = ["wip-africa", "bestbuds", "steelorex", "leopard-tours"];
+  const recentIds = ["pomerol", "leopard-tours", "matriarch-africa", "steelorex"];
   const recent = recentIds.map(id => WEB_PROJECTS.find(p => p.id === id)!);
   return (
     <div className="page">
