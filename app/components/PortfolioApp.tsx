@@ -49,7 +49,8 @@ function ProjectCard({
             src={p.image}
             alt={`${p.title} screenshot`}
             fill
-            sizes="(max-width: 720px) 100vw, (max-width: 1080px) 50vw, 600px"
+            sizes="(max-width: 720px) 100vw, (max-width: 1080px) 50vw, 900px"
+            quality={90}
             style={{ objectFit: "cover" }}
           />
         ) : (
