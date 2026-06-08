@@ -33,7 +33,7 @@ export const WEB_PROJECTS: WebProject[] = [
     href: "https://ottersbendlodge.co.za/",
     blurb: "Riverside Lodge & Campsite in Franschhoek",
     tags: ["Accommodation", "Tourism"],
-    image: "/otters-bend.jpg",
+    image: "/web-design-otters-bend-lodge.jpg",
   },
   {
     id: "olive-bean",
@@ -42,7 +42,7 @@ export const WEB_PROJECTS: WebProject[] = [
     href: "https://olivebeanleather.co.za/",
     blurb: "Artisanal Local Leather Products",
     tags: ["E-commerce", "D2C"],
-    image: "/olive-bean.png",
+    image: "/web-design-olive-bean-leather.jpg",
   },
   {
     id: "stiint-it",
@@ -51,7 +51,7 @@ export const WEB_PROJECTS: WebProject[] = [
     href: "https://stiint-it.com/",
     blurb: "Connecting Verified Talent to Opportunities",
     tags: ["Marketplace", "Recruitment"],
-    image: "/stiint-it.png",
+    image: "/web-design-stiint-it.jpg",
   },
   {
     id: "bestbuds",
@@ -60,7 +60,7 @@ export const WEB_PROJECTS: WebProject[] = [
     href: "https://bestbuds420.co.za/",
     blurb: "Bud Buying Built for Members",
     tags: ["E-commerce", "Membership"],
-    image: "/best-buds.png",
+    image: "/web-design-best-buds-420.jpg",
   },
   {
     id: "wip-africa",
@@ -69,7 +69,7 @@ export const WEB_PROJECTS: WebProject[] = [
     href: "https://worldinstituteofpainafrica.org/",
     blurb: "Regional Leaders in Pain Management and Education",
     tags: ["Healthcare", "Education"],
-    image: "/wip-africa.png",
+    image: "/web-design-wip-africa.jpg",
   },
   {
     id: "drcaryn",
@@ -78,7 +78,7 @@ export const WEB_PROJECTS: WebProject[] = [
     href: "https://drcarynapril.com/",
     blurb: "Medical Physician",
     tags: ["Professional Services", "Personal Brand"],
-    image: "/dr-caryn.png",
+    image: "/web-design-dr-caryn-april.jpg",
   },
   {
     id: "pomerol",
@@ -87,7 +87,7 @@ export const WEB_PROJECTS: WebProject[] = [
     href: "https://pomerolpartners.com/netsuite-operational-rescue/",
     blurb: "Data analytics consultancy",
     tags: ["SaaS", "Analytics"],
-    image: "/pomerol.png",
+    image: "/web-design-pomerol-partners.jpg",
   },
   {
     id: "steelorex",
@@ -96,7 +96,25 @@ export const WEB_PROJECTS: WebProject[] = [
     href: "https://steelorex.co.za/",
     blurb: "Commercial manufacturer and online retailer",
     tags: ["E-commerce", "Manufacturing"],
-    image: "/steelorex.png",
+    image: "/web-design-steelorex.jpg",
+  },
+  {
+    id: "leopard-tours",
+    title: "Leopard Tours",
+    url: "leopard.voyage",
+    href: "https://leopard.voyage/",
+    blurb: "Curated travel experiences",
+    tags: ["Tourism", "Travel"],
+    image: "/web-design-leopard-tours.jpg",
+  },
+  {
+    id: "matriarch-africa",
+    title: "Matriarch Africa",
+    url: "matriarch.africa",
+    href: "https://matriarch.africa/",
+    blurb: "Energy & utilities management for property portfolios",
+    tags: ["Energy", "Property"],
+    image: "/web-design-matriarch-africa.jpg",
   },
 ];
 
