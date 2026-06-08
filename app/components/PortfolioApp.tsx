@@ -164,7 +164,7 @@ function SocialDesignPage() {
       <PageHead
         kicker="Social Design"
         title="Designed for the feed."
-        sub="Mockups, story templates, and content systems — drop in your campaign artwork."
+        sub="Mockups, story templates, and content systems."
       />
       <div className="social-grid">
         {Array.from({ length: 8 }).map((_, i) => (
