@@ -652,12 +652,12 @@ button { font-family: inherit; cursor: pointer; border: 0; background: transpare
 /* Social grid */
 .social-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 18px;
 }
 .social-grid .tile {
   position: relative;
-  aspect-ratio: 9 / 16;
+  aspect-ratio: 1 / 1;
   border-radius: var(--radius-lg);
   overflow: hidden;
   background: var(--surface);
