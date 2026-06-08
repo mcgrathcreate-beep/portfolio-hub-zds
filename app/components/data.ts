@@ -26,15 +26,6 @@ export type WebProject = {
 
 export const WEB_PROJECTS: WebProject[] = [
   {
-    id: "otters-bend",
-    title: "Otter's Bend Lodge",
-    url: "ottersbendlodge.co.za",
-    href: "https://ottersbendlodge.co.za/",
-    blurb: "Riverside Lodge & Campsite in Franschhoek",
-    tags: ["Accommodation", "Tourism"],
-    image: "/web-design-otters-bend-lodge.png",
-  },
-  {
     id: "olive-bean",
     title: "Olive Bean Leather",
     url: "olivebeanleather.co.za",
@@ -42,15 +33,6 @@ export const WEB_PROJECTS: WebProject[] = [
     blurb: "Artisanal Local Leather Products",
     tags: ["E-commerce", "D2C"],
     image: "/web-design-olive-bean-leather.png",
-  },
-  {
-    id: "stiint-it",
-    title: "Stiint It",
-    url: "stiint-it.com",
-    href: "https://stiint-it.com/",
-    blurb: "Connecting Verified Talent to Opportunities",
-    tags: ["Marketplace", "Recruitment"],
-    image: "/web-design-stiint-it.png",
   },
   {
     id: "bestbuds",
@@ -62,15 +44,6 @@ export const WEB_PROJECTS: WebProject[] = [
     image: "/web-design-best-buds-420.png",
   },
   {
-    id: "wip-africa",
-    title: "WIP Africa",
-    url: "worldinstituteofpainafrica.org",
-    href: "https://worldinstituteofpainafrica.org/",
-    blurb: "Regional Leaders in Pain Management and Education",
-    tags: ["Healthcare", "Education"],
-    image: "/web-design-wip-africa.png",
-  },
-  {
     id: "drcaryn",
     title: "Dr Caryn April Inc",
     url: "drcarynapril.com",
@@ -80,6 +53,33 @@ export const WEB_PROJECTS: WebProject[] = [
     image: "/web-design-dr-caryn-april.png",
   },
   {
+    id: "stiint-it",
+    title: "Stiint It",
+    url: "stiint-it.com",
+    href: "https://stiint-it.com/",
+    blurb: "Connecting Verified Talent to Opportunities",
+    tags: ["Marketplace", "Recruitment"],
+    image: "/web-design-stiint-it.png",
+  },
+  {
+    id: "otters-bend",
+    title: "Otter's Bend Lodge",
+    url: "ottersbendlodge.co.za",
+    href: "https://ottersbendlodge.co.za/",
+    blurb: "Riverside Lodge & Campsite in Franschhoek",
+    tags: ["Accommodation", "Tourism"],
+    image: "/web-design-otters-bend-lodge.png",
+  },
+  {
+    id: "wip-africa",
+    title: "WIP Africa",
+    url: "worldinstituteofpainafrica.org",
+    href: "https://worldinstituteofpainafrica.org/",
+    blurb: "Regional Leaders in Pain Management and Education",
+    tags: ["Healthcare", "Education"],
+    image: "/web-design-wip-africa.png",
+  },
+  {
     id: "pomerol",
     title: "Pomerol",
     url: "pomerolpartners.com",
@@ -87,15 +87,6 @@ export const WEB_PROJECTS: WebProject[] = [
     blurb: "Data analytics consultancy",
     tags: ["SaaS", "Analytics"],
     image: "/web-design-pomerol-partners.png",
-  },
-  {
-    id: "steelorex",
-    title: "Steelorex",
-    url: "steelorex.co.za",
-    href: "https://steelorex.co.za/",
-    blurb: "Commercial manufacturer and online retailer",
-    tags: ["E-commerce", "Manufacturing"],
-    image: "/web-design-steelorex.png",
   },
   {
     id: "leopard-tours",
@@ -114,6 +105,15 @@ export const WEB_PROJECTS: WebProject[] = [
     blurb: "Energy & utilities management for property portfolios",
     tags: ["Energy", "Property"],
     image: "/web-design-matriarch-africa.png",
+  },
+  {
+    id: "steelorex",
+    title: "Steelorex",
+    url: "steelorex.co.za",
+    href: "https://steelorex.co.za/",
+    blurb: "Commercial manufacturer and online retailer",
+    tags: ["E-commerce", "Manufacturing"],
+    image: "/web-design-steelorex.png",
   },
 ];
 
