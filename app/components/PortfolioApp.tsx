@@ -146,7 +146,7 @@ function GraphicDesignPage() {
       <PageHead
         kicker="Graphic Design · Selected Work"
         title="Identity, print & the everyday."
-        sub="Branding, posters, banners, email signatures, social assets, and pitch decks."
+        sub="Designed using Figma, Canva or Adobe."
       />
       <div className="gfx-masonry">
         {GFX_IMAGES.map((src, i) => (
