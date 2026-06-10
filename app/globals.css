@@ -672,18 +672,27 @@ button { font-family: inherit; cursor: pointer; border: 0; background: transpare
   box-shadow: var(--shadow-lg);
 }
 
-.gfx-placeholder {
+.gfx-masonry {
+  columns: 3;
+  column-gap: 16px;
+}
+.gfx-masonry-item {
+  break-inside: avoid;
+  margin-bottom: 16px;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  transition: transform 280ms cubic-bezier(.2,.7,.2,1), box-shadow 280ms ease;
+}
+.gfx-masonry-item:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
+}
+.gfx-masonry-item img {
   width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: var(--surface-2);
-  color: var(--ink-3);
-  font-size: 0.8rem;
-  font-weight: 500;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
+  height: auto;
+  display: block;
 }
 
 /* Home hero */
@@ -765,6 +774,7 @@ button { font-family: inherit; cursor: pointer; border: 0; background: transpare
   .home-hero { padding: 36px 36px; }
   .home-hero h1 { font-size: 44px; }
   .page-head h1 { font-size: 42px; }
+  .gfx-masonry { columns: 2; }
 }
 
 @media (max-width: 720px) {
@@ -774,6 +784,7 @@ button { font-family: inherit; cursor: pointer; border: 0; background: transpare
   .project-grid, .contact-grid, .coming, .gfx-grid, .social-grid, .home-hero {
     grid-template-columns: 1fr !important;
   }
+  .gfx-masonry { columns: 2; }
   .exp-row { grid-template-columns: 56px 1fr; }
   .exp-side { grid-column: 1 / -1; align-items: flex-start; text-align: left; flex-direction: row; gap: 16px; }
 }

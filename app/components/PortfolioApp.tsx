@@ -138,6 +138,8 @@ function WebDesignPage() {
   );
 }
 
+const GFX_IMAGES = Array.from({ length: 26 }, (_, i) => `/graphic-${i + 1}.png`);
+
 function GraphicDesignPage() {
   return (
     <div className="page">
@@ -146,12 +148,10 @@ function GraphicDesignPage() {
         title="Identity, print & the everyday."
         sub="Branding, posters, banners, email signatures, social assets, and pitch decks."
       />
-      <div className="social-grid">
-        {Array.from({ length: 9 }).map((_, i) => (
-          <div className="tile" key={i}>
-            <div className="gfx-placeholder">
-              <span>Coming soon</span>
-            </div>
+      <div className="gfx-masonry">
+        {GFX_IMAGES.map((src, i) => (
+          <div className="gfx-masonry-item" key={i}>
+            <img src={src} alt={`Graphic design ${i + 1}`} />
           </div>
         ))}
       </div>
