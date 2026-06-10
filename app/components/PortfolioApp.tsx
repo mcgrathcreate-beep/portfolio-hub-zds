@@ -142,15 +142,16 @@ function GraphicDesignPage() {
   return (
     <div className="page">
       <PageHead
-        kicker="Graphic Design"
+        kicker="Graphic Design · Selected Work"
         title="Identity, print & the everyday."
-        sub="Digital designs, posters, banners, branding work, email signatures, social assets, and pitch decks."
+        sub="Branding, posters, banners, email signatures, social assets, and pitch decks."
       />
-      <div className="gfx-grid">
-        {GFX_TILES.map((t) => (
-          <div className={"tile " + t.cls} key={t.id}>
-            <span className="slot-placeholder">{t.cap}</span>
-            <div className="cap">{t.cap}</div>
+      <div className="social-grid">
+        {Array.from({ length: 9 }).map((_, i) => (
+          <div className="tile" key={i}>
+            <div className="gfx-placeholder">
+              <span>Coming soon</span>
+            </div>
           </div>
         ))}
       </div>
@@ -427,7 +428,7 @@ export default function PortfolioApp() {
           <span className="dot"></span>
           <span className="lbl">Available Now</span>
         </div>
-        <a className="hire-btn" href="mailto:staffyzen@gmail.com">
+        <a className="hire-btn" href="mailto:staffyzen@gmail.com" target="_blank" rel="noopener noreferrer">
           <span className="lbl">Hire Me</span>
           <Icon name="arrow-out" size={14} />
         </a>
