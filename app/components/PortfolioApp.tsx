@@ -427,10 +427,10 @@ export default function PortfolioApp() {
           <span className="dot"></span>
           <span className="lbl">Available Now</span>
         </div>
-        <button className="hire-btn" onClick={() => go("contact")}>
+        <a className="hire-btn" href="mailto:staffyzen@gmail.com">
           <span className="lbl">Hire Me</span>
           <Icon name="arrow-out" size={14} />
-        </button>
+        </a>
       </aside>
 
       <main className="main">
