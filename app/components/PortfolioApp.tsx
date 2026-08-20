@@ -361,7 +361,6 @@ const PAGES: Record<string, () => React.JSX.Element> = {
   home: HomePage,
   web: WebDesignPage,
   graphic: GraphicDesignPage,
-  social: SocialDesignPage,
   cv: CvPage,
   contact: ContactPage,
 };
